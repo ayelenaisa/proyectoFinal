@@ -1,0 +1,350 @@
+
+*{padding: 0;
+    margin: 0;
+    border: 0;
+    }*
+    .pagInicio{
+           background-image: url(../img/familia.jpeg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin-top: -73px;}
+           
+           
+           
+           
+   
+    .clientesNuestros{
+       font-family: 'Merriweather', serif;
+       padding: 8px;
+       margin:77px 75px 37px 93px;
+       color: #090105;
+       background-color: #fdfdfd91;
+       font-size: xx-large;
+       font-style: italic;
+       border: 16px #15070e double;
+       animation:bounce;
+       animation-duration: 2s;
+}        
+       .parrafitoUno{
+     color: rgb(222, 48, 118);          
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background-color: #fdfdfd61;
+     text-align: center  ; 
+     font-size: larger;
+     justify-content:space-between;
+     margin:87px
+
+    }
+.palabrasInicio
+{
+color: rgb(222, 48, 118); 
+border: 6px solid black;     
+font-family: 'Merriweather', serif;
+background-color: #fdfdfd61;
+text-align: center  ; 
+margin:2px 136px 9px 510px;
+animation: zoomIn;
+animation-duration: 1s;
+
+}
+iframe{
+margin: -168px -42px 150px 45px;
+height: 179px;
+width: 314px;
+    
+}
+.footImag{
+ width: 235px;
+height: 199px;
+margin: 19px 72px 7px 151px;
+ 
+ 
+}
+.footInicio{
+ padding: 1px;
+ margin: 0px;
+ background-color: #ada3c7;
+ border: 10px solid #000;
+}
+   
+h5{
+ color: #b30b4a;
+border: 6px solid #11080e;
+font-size: medium;
+padding: 4px;
+text-align: center;  
+margin: 75px;
+}
+.camaras, .alaRmas, .monitoreo, .conTacto{  color: #b30b4a;
+ border: #000000 double 10px;
+ text-align: center;
+ font-weight: bold;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size:xx-large;
+ margin: auto;
+}
+   
+.maPa{
+ margin:-41px 50px 27px 540px
+
+}
+.fondoCamaras{
+ background-image:url(../img/fondocamaras.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;}
+.grid-container {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: solid 6px #a70e7a;
+} 
+ 
+.grid-item1, .grid-item2, 
+.grid-item3, .grid-item4, .grid-item5, .grid-item6 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #4a4f5176;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.grid-item1:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-item2:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-item3:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-item4:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-item5:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-item6:hover{
+  filter: opacity(0.9);
+  transform: scale(1.03);
+}
+.grid-container{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, mimax(250px,1fr)) ;
+ grid-auto-rows: mimax (200px, auto);
+ gap: 20px; 
+ align-items: stretch;
+ padding: 200px;
+ justify-items:stretch;
+ align-content: center; }
+ 
+  
+ .camUno, .camDos, .camTres, .camCuatro, .camCinco, .camSeis{
+color: #000000f5;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bolder;
+border: rgb(252, 255, 255) solid 5px;
+margin: 5px 38px 35px 2px;}
+ 
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6{
+   border: #000000 10px solid;
+ }
+  .imagUno,.imagDos, 
+  .imagTres, .imagCuatro,
+  .imagCinco, .imagSeis{
+   width: 119px;
+   height: 95px;
+   margin: 37px 15px 76px 18px; 
+   border: #000000 5px solid;
+  } 
+ 
+ .gridPadre{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, mimax(250px,1fr)) ;
+ grid-auto-rows: mimax (200px, auto);
+ gap: 20px; 
+ align-items: stretch;
+ padding: 200px;
+ justify-items:stretch;
+ align-content: center;
+ background-image: url(../img/fondoalarmas.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;}
+
+.gridUno, .gridDos,.gridTres
+{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+border: solid 1px black;
+border-radius: 10px;
+background-color: #4a4f5176;
+text-align: center;
+transition: transform 0.3s ease-in-out;
+}
+.gridUno:hover{
+ filter: opacity(0.9);
+ transform: scale(1.03);
+}
+.gridDos:hover{
+ filter: opacity(0.9);
+ transform: scale(1.03);
+}
+.gridTres:hover{
+ filter: opacity(0.9);
+ transform: scale(1.03);
+}
+.parrafUno, .parrafDos, .parrafTres{
+color: #000000f5;
+font-family: 'Courier New', Courier,;
+font-weight : bolder;
+border: rgb(252, 255, 255) solid 5px;
+margin: 5px 38px 35px 2px;}
+
+.alarmaUno, .alarmaDos, 
+.alarmaTres{
+ width: 119px;
+ height: 95px;
+ margin: 37px 15px 76px 18px; 
+ border: #000000 5px solid;
+}
+.pagMonitoreo{
+ background-image: url(../img/operadores-de-monitoreo3.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 20%;
+ margin:4px 1px 2px 1px; 
+}
+
+
+
+
+ .infoMoni{
+   background-color: #00000061;
+color: antiquewhite;
+border: 4px solid #746c6c;
+font-size: larger;
+font-style: italic;
+text-align: justify;
+padding: 10px;
+}
+.monitoreoTwo{
+ height: 710px;
+ width: 1070px;
+
+}
+.footerMoni {
+ background-color: #0000009e;
+ border: solid 4px rgb(224, 73, 184);
+ margin-top: 2px;
+ padding: 1%;
+ color: white;
+ text-align: center;}
+
+
+
+.moniToreo{
+ font-size: medium;
+}
+
+ .infoMoni:hover {
+   filter: opacity(0.9);
+   transform: scale(1.03) 
+ }
+ .footDos, .footContacto{     background-color:#312d2d9c;
+  border: #a24887 solid 5px;
+ margin: 4px;}
+.footImagdos, .footImagdoscontac{
+ width: 175px;
+height: 166px;
+margin: 24px 3px 1px 420px;
+ }
+.footImagcctv{
+ width: 235px;
+height: 199px;
+margin: 19px 72px 7px 451px;
+}
+
+@media  (max-width:768px)
+{
+ .pagInicio {
+margin: 6px;
+}
+ .maPa{
+   margin: 1px 1px 34px 377px
+ }
+ .footImag{
+   width: 215px;
+height: 165px;
+margin: 11px 4px 2px 48px;
+ }
+ h5{
+   margin: 1px 145px 12px 147px;
+ }
+ .palabrasInicio{
+color: rgb(222, 48, 118);
+font-family: 'Merriweather', serif;
+background-color: #fdfdfd61;
+text-align: center;
+margin: 2px 60px 9px 510px;
+animation: zoomIn;
+ animation-duration: 0s;
+animation-duration: 1s;
+ }
+ .footImagcctv {
+   width: 235px;
+   height: 199px;
+   margin: 11px 72px 11px 290px;
+}
+.footDos {
+ background-color: #312d2d9c;
+ border: #a24887 solid 5px;
+ margin: 4px;
+}
+.pagMonitoreo {
+ padding: 15%;
+}
+.monitoreoTwo {
+ height: 688px;
+ width: 767px;
+}
+.footContacto{
+ padding-bottom: 10%;
+}
+.footImagdoscontac {
+ width: 264px;
+ height: 204px;
+ margin: 136px 6px 108px 234px;
+}
+}
+@media ( max-width: 1023px){
+
+ .monitoreoTwo {
+   height: 517px;
+   width: 914px;
+
+}
+.footContacto{
+ padding: 9%;
+}
+.footImagdoscontac{
+ margin: 24px 3px 1px 315px;
+}
+.pagMonitoreo{
+ margin: 5px -46px 4px 1px;
+}
+.footerMoni{
+ margin-right: -49px;
+}
+}
+ 
