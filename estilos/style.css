@@ -25,6 +25,7 @@
           animation: bounce;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+  text-align: center;
 }
 
 .parrafitoUno {
@@ -45,7 +46,7 @@
   font-family: 'Merriweather', serif;
   background-color: #fdfdfd61;
   text-align: center;
-  margin: 2px 136px 9px 510px;
+  margin: 2px 81px 61px 768px;
   -webkit-animation: zoomIn;
           animation: zoomIn;
   -webkit-animation-duration: 1s;
@@ -61,7 +62,7 @@ iframe {
 .footImag {
   width: 235px;
   height: 199px;
-  margin: 19px 72px 7px 151px;
+  margin: 46px 45px 3px 74px;
 }
 
 .footInicio {
@@ -91,11 +92,11 @@ h5 {
 }
 
 .maPa {
-  margin: -41px 50px 27px 540px;
+  margin: -49px 72px 42px 692px;
 }
 
 .fondoCamaras {
-  background-image: url(../img/fondocamaras.jpg);
+  background-image: url(../img/fondocamaras2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -117,7 +118,8 @@ h5 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
+  padding: 5px;
+  margin: 10px;
   border: solid 1px black;
   border-radius: 10px;
   background-color: #4a4f5176;
@@ -180,7 +182,6 @@ h5 {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  padding: 200px;
   justify-items: stretch;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -304,7 +305,7 @@ h5 {
 
 .monitoreoTwo {
   height: 710px;
-  width: 1070px;
+  width: 1349px;
 }
 
 .footerMoni {
@@ -336,86 +337,82 @@ h5 {
 .footImagdos, .footImagdoscontac {
   width: 175px;
   height: 166px;
-  margin: 24px 3px 1px 420px;
+  margin: 24px 3px 1px 556px;
 }
 
 .footImagcctv {
   width: 235px;
   height: 199px;
-  margin: 19px 72px 7px 451px;
+  margin: 30px 72px 7px 528px;
+}
+
+@media (max-width: 400px) {
+  .palabrasInicio {
+    margin: 2px 93px 9px 80px;
+  }
+  .maPa {
+    margin: 27px 4px 4px 1px;
+  }
+  .footImag {
+    margin: 29px 78px 196px 56px;
+  }
+  .videoSecu {
+    margin: 197px 10px 12px 10px;
+  }
+  .gridUno, .gridDos, .gridTres {
+    padding: 1px;
+    margin: -182px -40px 174px -210px;
+  }
+  .monitoreoTwo {
+    height: 400px;
+    width: 401px;
+  }
+  .footImagdoscontac {
+    width: 175px;
+    height: 166px;
+    margin: 33px 3px 1px 72px;
+  }
+  .footContacto {
+    margin: 1px;
+    padding: 62px;
+  }
 }
 
 @media (max-width: 768px) {
-  .pagInicio {
-    margin: 6px;
+  .palabrasInicio {
+    margin: 2px 77px 9px 485px;
   }
   .maPa {
-    margin: 1px 1px 34px 377px;
+    margin: 0px 53px 29px 322px;
   }
   .footImag {
-    width: 215px;
-    height: 165px;
-    margin: 11px 4px 2px 48px;
-  }
-  h5 {
-    margin: 1px 145px 12px 147px;
-  }
-  .palabrasInicio {
-    color: #de3076;
-    font-family: 'Merriweather', serif;
-    background-color: #fdfdfd61;
-    text-align: center;
-    margin: 2px 60px 9px 510px;
-    -webkit-animation: zoomIn;
-            animation: zoomIn;
-    -webkit-animation-duration: 0s;
-            animation-duration: 0s;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-  }
-  .footImagcctv {
-    width: 235px;
-    height: 199px;
-    margin: 11px 72px 11px 290px;
-  }
-  .footDos {
-    background-color: #312d2d9c;
-    border: #a24887 solid 5px;
-    margin: 4px;
-  }
-  .pagMonitoreo {
-    padding: 15%;
-  }
-  .monitoreoTwo {
-    height: 688px;
-    width: 767px;
-  }
-  .footContacto {
-    padding-bottom: 10%;
+    width: 260px;
+    height: 216px;
+    margin: 46px 44px 3px 39px;
   }
   .footImagdoscontac {
-    width: 264px;
-    height: 204px;
-    margin: 136px 6px 108px 234px;
+    width: 175px;
+    height: 166px;
+    margin: 33px 3px 1px 192px;
   }
 }
 
 @media (max-width: 1023px) {
+  .palabrasInicio {
+    margin: 2px 81px 61px 744px;
+  }
+  .maPa {
+    margin: -33px 72px 42px 581px;
+  }
   .monitoreoTwo {
-    height: 517px;
-    width: 914px;
+    height: 710px;
+    width: 1021px;
   }
   .footContacto {
-    padding: 9%;
+    padding: 71px;
   }
   .footImagdoscontac {
-    margin: 24px 3px 1px 315px;
-  }
-  .pagMonitoreo {
-    margin: 5px -46px 4px 1px;
-  }
-  .footerMoni {
-    margin-right: -49px;
+    margin: 24px 3px 1px 385px;
   }
 }
 /*# sourceMappingURL=style.css.map */
